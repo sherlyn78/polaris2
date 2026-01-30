@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F8FAFB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="7dp"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_imagen"
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:padding="3dp"
+                android:contentDescription="imagen1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_ruta"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtv_mensajeBienvenida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="Ingrese su dirección"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtv_mensaj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ilorem lorem dfnkaf rverg wgsrgssfsfewfsfsscsc"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/txtv_selecEstado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sleccionar estado"
+                android:textStyle="bold"
+                android:padding="12dp"
+                android:layout_margin="12dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/txtv_seleMunicipio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sleccionar municipio"
+                android:textStyle="bold"
+                android:padding="12dp"
+                android:layout_margin="12dp"
+                android:textSize="16sp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_ContinuarDireccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Continuar"
+                android:textSize="22dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textAllCaps="false"
+                android:background="@drawable/border_redound_botton"
+                android:backgroundTint="#242031"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

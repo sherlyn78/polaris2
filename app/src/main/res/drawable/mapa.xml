@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Mapa base -->
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M15.5,4l-7,2.5L2,4v16l6.5,2.5l7,-2.5L22,20V4l-6.5,-2zM9,6.11l6,-2.15v13.93l-6,2.15V6.11zM4,5.38l4,1.54v13.93l-4,-1.54V5.38zM20,18.62l-4,-1.54V3.15l4,1.54v13.93z" />
+
+    <!-- Marcador (pin) -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M12,2C9.24,2 7,4.24 7,7c0,4.25 5,9 5,9s5,-4.75 5,-9c0,-2.76 -2.24,-5 -5,-5zM12,9.2c-1.21,0 -2.2,-0.99 -2.2,-2.2 0,-1.21 0.99,-2.2 2.2,-2.2 1.21,0 2.2,0.99 2.2,2.2 0,1.21 -0.99,2.2 -2.2,2.2z"/>
+</vector>

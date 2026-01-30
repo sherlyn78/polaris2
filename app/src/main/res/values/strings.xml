@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PolarisGuard</string>
+    <string name="usuario_gmail_com">usuario@gmail.com</string>
+
+    <string-array name="Estados">
+        <item>opcion 1</item>
+        <item>opcion 1</item>
+        <item>opcion 1</item>
+        <item>opcion 1</item>
+        <item>opcion 1</item>
+        <item>opcion 1</item>
+        <item>opcion 1</item>
+    </string-array>
+
+
+    <string-array name="Municipios">
+        <item>opcion 1</item>
+        <item>opcion 1</item>
+        <item>opcion 1</item>
+        <item>opcion 1</item>
+        <item>opcion 1</item>
+        <item>opcion 1</item>
+        <item>opcion 1</item>
+    </string-array>
+</resources>

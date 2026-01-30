@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9F9">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Datos del hijo"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="29sp"
+                android:padding="16dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/edtxNombreHijo_padre"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/border_redound_botton"
+                android:backgroundTint="#E6E3DE"
+                android:hint="Ej. Juan"
+                android:padding="12dp"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apellidos"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/btn_apellidosHijo_padre"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/border_redound_botton"
+                android:backgroundTint="#E6E3DE"
+                android:hint="Ej. Pérez López"
+                android:padding="12dp"
+                android:layout_marginBottom="16dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edad"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/btn_edadHijo_padre"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/border_redound_botton"
+                android:backgroundTint="#E6E3DE"
+                android:hint="Ej. Pérez López"
+                android:padding="12dp"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correo electrónico"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/btn_correoHijo_padre"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/border_redound_botton"
+                android:backgroundTint="#E6E3DE"
+                android:hint="ejemplo@gmail.com"
+                android:padding="12dp"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- CONTRASEÑA CON OJITO PARA SU MEJOR VISUALIZACION -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Numero de telefono"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/btn_telefonoHijo_padre"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/border_redound_botton"
+                android:backgroundTint="#E6E3DE"
+                android:hint="1234567890"
+                android:inputType="textPassword"
+                android:padding="12dp"
+                android:paddingEnd="48dp" />
+            <!-- ......................................................... -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_RegistroDatosHijo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:layout_marginTop="10dp"
+                android:text="Continuar"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:background="@drawable/border_redound_botton"
+                android:backgroundTint="#27323A"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

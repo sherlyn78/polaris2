@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/pngegg2"
+        android:padding="26dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_redound_botton"
+                android:backgroundTint="#0829A4"
+                android:text="Inicia Sesion"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:padding="14dp"
+                android:layout_marginBottom="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtv_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="18dp"
+                android:text="Correo electrónico"
+                android:padding="6dp"/>
+
+            <EditText
+                android:id="@+id/edtxUser"
+                android:layout_width="match_parent"
+                android:background="@drawable/border_redound_botton"
+                android:backgroundTint="#ABCEC7C7"
+                android:layout_height="48dp"
+                android:hint="example@gmail.com"
+                android:padding="6dp"/>
+
+            <TextView
+                android:id="@+id/txtv_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Contraseña"
+                android:textSize="16sp"
+                android:padding="6dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <EditText
+                    android:id="@+id/edtxPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/border_redound_botton"
+                    android:backgroundTint="#ABCEC7C7"
+                    android:hint="●●●●●●●●"
+                    android:inputType="textPassword"
+                    android:padding="12dp"
+                    android:paddingEnd="48dp" />
+
+                <ImageView
+                    android:id="@+id/ImgvTogglePasswordLogin"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/icon_visibility_off"
+                    android:contentDescription="Mostrar/Ocultar contraseña"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:padding="6dp"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txtv_Rememberpass"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:text="¿Haz olvidado tu contraseña?"
+                android:textColorLink="@color/white"
+                android:padding="12dp"
+                android:clickable="true"
+                android:focusable="true"/>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_IniciarSesion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_redound_botton"
+                android:backgroundTint="#292C42"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:text="Iniciar sesión"
+                android:textAllCaps="false"
+                android:textColor="@color/white"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/txtv_CrearCuenta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="¿Aun no tienes una cuenta?"
+                    android:textColorLink="@color/purple_700"
+                    android:padding="2dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtv_CrearCuena"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:textAlignment="center"
+                    android:text="Crear una cuenta"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColorLink="@color/purple_700"
+                    android:padding="2dp"
+                    android:clickable="true"
+                    android:focusable="true"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

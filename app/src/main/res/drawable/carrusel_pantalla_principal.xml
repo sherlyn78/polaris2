@@ -1,0 +1,7 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false"> <!-- false = se repite en loop -->
+
+    <item android:drawable="@drawable/seguridad" android:duration="1500"/> <!-- 500ms -->
+    <item android:drawable="@drawable/seguridad_uno" android:duration="1500"/>
+    <item android:drawable="@drawable/seguridad_dos" android:duration="1500"/>
+</animation-list>
